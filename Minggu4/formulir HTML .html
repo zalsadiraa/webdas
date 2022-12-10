@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Belajar HTML 5 </title>
+	</head>
+	<body>
+		<h2>Formulir Mahasiswa HTML 5</h2>
+		<form name="fmhs"="proses.php" method="post">
+			<table width="50%">
+			
+				<tr>
+					<td>Nim</td>
+					<td><input type="number" name="fnim"></td>
+				</tr>
+				
+				<tr>
+					<td>Nama</td>
+					<td><input type="text" name="fnama"></td>
+				</tr>
+				
+				<tr>
+					<td> Program Studi </td>
+					<td>
+						<select name="fprodi">
+							<option value="">Pilih Program Studi</option>
+							<option value="a11">s1 - Teknik Informatika</option>
+							<option value="a12">s1 - Sistem informasi</option>
+							</select></td>
+				</tr>
+				
+				<tr>
+					<td>Tanggal lahir</td>
+					<td><input type="date" name="tgllhr" id="tgllhr" required>
+					</td>
+				</tr>	
+					
+				<tr>
+					<td>Agama </td>
+					<td>
+						<select name="Agama">
+						<option value="islam">Islam</option>
+						<option value="kristen">Kristen</option>
+						<option value="hindu">Hindu</option>
+						<option value="budha">Budha</option>
+					</select></td>
+				</tr>
+				
+				<tr>
+					<td>Jenis Kelamin  </td>
+					<td><input type="radio" name="Jenis_Kelamin" value="laki-laki"/> Laki-laki</td>
+				</tr>
+				<tr>
+				<td></td>
+					<td><input type="radio" name="Jenis_Kelamin" value="Perempuan"/> Perempuan</td>
+				</tr>
+				
+				<tr>
+					<td>Bidang Minat</td>
+					<td><input type="checkbox" name="Bidang_Minat" value="WebDeveloper"/> Web Developer</td>
+				</tr>
+				<tr>
+				<td></td>
+					<td><input type="checkbox" name="Bidang_Minat" value="MobileDeveloper"/> Mobile Developer</td>
+				</tr>
+				<tr>
+				<td></td>
+					<td><input type="checkbox" name="Bidang_Minat" value="DataScience"/> Data Science</td>
+				</tr>
+				
+				<tr>
+					<td> Lamp. Sertifikat </td>
+						<title> File upload Box </title>
+						<td><form> 
+							<input type="file" name="fileupload" accept = "image/*"/>
+						</form></td>
+				</tr>
+
+					<td></td>
+					<td><input type="submit" name="fsubmit"<input type="submit"</td>
+					<td><input type="reset" name="freset"<input type="reset"</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>
